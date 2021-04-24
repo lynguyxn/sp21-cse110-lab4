@@ -76,4 +76,4 @@
 
 15. The == operator is a regular equality check that cannot differentiate between the types so it performs type conversion on the values during equality check. The === operator is a strict equality that checks equality without type conversion so it cannot return true if the values have mismatched types.
 
-16. 
+17. The result is [2, 4, 6] 
