@@ -76,4 +76,13 @@
 
 15. The == operator is a regular equality check that cannot differentiate between the types so it performs type conversion on the values during equality check. The === operator is a strict equality that checks equality without type conversion so it cannot return true if the values have mismatched types.
 
-17. The result is [2, 4, 6] 
+17. The result is [2, 4, 6]. We first trace through modifyArray which takes an array and a callback and returns a new array with the callback function applied to the array's elements. In modifyArray, a new const array is created. Then for each element in the parameter array, apply callback on it (which multiplies it by 2 in this case) and push the result to the new array. Since this is not a reassignment of the const array, it is allowed. Lastly, the new const array is returnen.
+
+19. 1
+    
+    4
+    
+    3
+    
+    2
+
